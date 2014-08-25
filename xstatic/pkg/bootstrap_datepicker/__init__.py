@@ -11,9 +11,9 @@ NAME = __name__.split('.')[-1] # package name (e.g. 'foo' or 'foo_bar')
                                # please use a all-lowercase valid python
                                # package name
 
-VERSION = '1.3.0' # version of the packaged files, please use the upstream
+VERSION = '1.3.1' # version of the packaged files, please use the upstream
                   # version number
-BUILD = '0' # our package build number, so we can release new builds
+BUILD = '1' # our package build number, so we can release new builds
              # with fixes for xstatic stuff.
 PACKAGE_VERSION = VERSION + '.' + BUILD # version used for PyPi
 
@@ -28,7 +28,7 @@ MAINTAINER = 'Radomir Dopieralski'
 MAINTAINER_EMAIL = 'openstack@sheep.art.pl'
 
 # this refers to the project homepage of the stuff we packaged:
-HOMEPAGE = 'https://github.com/eternicode/bootstrap-datepicker/'
+HOMEPAGE = 'https://github.com/n9/bootstrap-datepicker'
 
 # this refers to all files:
 LICENSE = '(same as %s)' % DISPLAY_NAME
