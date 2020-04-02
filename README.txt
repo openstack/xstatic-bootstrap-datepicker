@@ -1,5 +1,5 @@
 XStatic-Bootstrap-Datepicker
---------------
+----------------------------
 
 Bootstrap-Datepicker JavaScript library packaged for setuptools (easy_install) / pip.
 
